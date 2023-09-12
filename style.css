@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+}
+
+.un-text::after{
+
+    content: "";
+    height: 2px;
+    width: 50px;
+    background:rgb(180, 58, 2);
+    position: absolute;
+    top: 65px;
+    left: calc(50% - 25px);
+}
+
+.overlay-color{
+    background: #0000008d;
+}
+
+section{
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+}
+
+#home{
+    background-image: url(./images/wave.svg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.opacity{
+    opacity: 1;
+    animation-delay:0s;
+    animation-duration: 0.5s;
+}
